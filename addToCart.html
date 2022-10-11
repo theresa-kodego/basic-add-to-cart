@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Shop</title>
     <link rel="stylesheet" href="./addToCart.css">
+    <script type="text/javascript" src="./addToCart.js"></script>
 </head>
 <body>
     <div class="container">
@@ -22,7 +23,7 @@
                      <option>39</option>
                  </select>
              </div>
-             <button>Add to Cart</button>
+             <button onclick="addToCart(item1)">Add to Cart</button>
          </div>
          <div class="card" id="item2">
             <img src="./blue-heels.jpg">
@@ -37,7 +38,7 @@
                      <option>39</option>
                  </select>
              </div>
-             <button>Add to Cart</button>
+             <button onclick="addToCart(item2)">Add to Cart</button>
          </div>
 
          <div class="cart" id="cart">
